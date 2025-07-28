@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "AstroGuía",
+    "slug": "AstroGuia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "/images/Icon.jpg",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "/images/SplashScreen.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1B4B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.astroguia.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E1B4B"
+      },
+      "package": "com.astroguia.app"
+    },
+    "web": {
+      "favicon": "/images/favicon.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#1E1B4B"
+        }
+      ],
+      "expo-system-ui"
+    ],
+    "scheme": "astroguia",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
